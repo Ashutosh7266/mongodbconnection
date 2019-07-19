@@ -2,7 +2,6 @@ const express = require('express');
 var MongoClient = require('mongodb').MongoClient;
 const app = express();
 var url = "mongodb://localhost:27017/";
-//var url = "mongodb://localhost:27017/";
 
 
 app.get('/movies', (req, res) => {
