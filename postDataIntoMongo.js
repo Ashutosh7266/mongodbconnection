@@ -1,6 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
 
-// replace the uri string with your connection string.
 const uri = "mongodb://localhost:27017/"
 MongoClient.connect(uri, function(err, client) {
    if(err) {
